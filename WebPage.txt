@@ -1,3 +1,11 @@
+const int Hora1;
+const int Minuto1";
+const int Hora2;
+const int Minuto2;
+const int Hora3;
+const int Minuto3;
+
+const char index_html[] PROGMEM = R"rawliteral(
 <!DOCTYPE HTML><html><head>
     <title>Entradad de Horários</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -34,4 +42,4 @@
         <input type="submit" value="Enviar">
       </form>
     </div>
-  </body></html>
+  </body></html>)rawliteral";
